@@ -1,0 +1,166 @@
+
+@media screen and (max-width: 1024px) {
+    /*侧边栏*/
+    .aside {
+        display: none;
+    }
+    
+    /*主体内容*/
+    .content {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .topnav {
+        display: block;
+    }
+
+    /*头部*/
+    .header {
+        display: none;
+    }
+    
+    /*焦点图*/
+    .content .slider:hover .arrow {
+        display: none;
+    }
+    
+    /*主体内容*/
+    .content {
+        padding: 0px;
+        margin-left: 0;
+    }
+
+    .content .panel {
+        padding-top: 15px;
+    }
+
+    /*底部*/
+    .footer {
+        text-align: center;
+        padding: 15px 0 20px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /*焦点图*/
+    .content .slider {
+        margin-bottom: 10px;
+    }
+
+    .content .slider li {
+        height: 160px;
+    }
+
+    .content .slider li img {
+        width: auto;
+        max-width: none;
+        height: 100%;
+    }
+
+    /*焦点图文字*/
+    .content .slider li span {
+        display: none;
+    }
+    /*焦点图左右箭头*/
+    .content .cursor {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        bottom: 10px;
+    }
+    
+    /*面板*/
+    .content .panel {
+        padding: 6px 10px 0;
+    }
+    
+    /*面板标题*/
+    .content .panel .title {
+        margin-bottom: 5px;
+        border-bottom: 2px solid #EEE;
+    }
+
+    .content .panel h3 {
+        line-height: 24px;
+        font-size: 14px;
+        font-weight: normal;
+        position: relative;
+        bottom: -2px;
+    }
+    
+    /*面板内容*/
+    .content .panel dl {
+        padding: 5px 0;
+    }
+    
+    /*标题*/
+    .content .panel dt {
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        overflow: hidden;
+    }
+    
+    /*文章分类*/
+    .content .panel dt a {
+        display: none;
+    }
+    
+    /*文章简介和信息*/
+    .content .brief,
+    .content .info {
+        display: none;
+    }
+    
+    /*单图文章*/
+    .content .single dt {
+        padding-right: 30%;
+    }
+
+    .content .single dd {
+        margin-top: -24px;
+        position: relative;
+    }
+
+    .content .single .thumb {
+        margin-left: 75%;
+    }
+
+    .content .single .extra {
+        position: absolute;
+        bottom: 0;
+    }
+
+    /*多图文章缩略图*/
+    .content .multi .thumb {
+        margin: 0 0 5px;
+    }
+
+    .content .multi .thumb span {
+        width: 32%;
+    }
+
+    .content .multi .thumb span:first-child {
+        display: none;
+    }
+    
+    /*文章标签*/
+    .content .extra .tags {
+        display: none;
+    }
+
+    /*焦点*/
+    .content .focus,
+    /*一周排行*/
+    .content .top,
+    /*热门推荐*/
+    .content .hots {
+        display: none;
+    }
+}
